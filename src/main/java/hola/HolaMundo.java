@@ -4,7 +4,11 @@ public class HolaMundo {
 
   public static void main(String[] args) {
     System.out.println("Hola Mundo");
-    avisoEmergenciaMaster();
+    nuevosAvisos();
+  }
+
+  public static void nuevosAvisos() {
+    System.out.println("Esto lo he metido nuevo en la rama nuevos avisos");
   }
 
   public static void avisoEmergenciaMaster() {
