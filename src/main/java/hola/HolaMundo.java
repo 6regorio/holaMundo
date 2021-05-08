@@ -7,6 +7,8 @@ public class HolaMundo {
     nuevosAvisos();
     avisoEmergenciaMaster();
     System.out.println("Es que se me había olvidado");
+    Coche miCoche = new Coche("Rojo", "Audi");
+    System.out.println(miCoche);
   }
 
   public static void nuevosAvisos() {
